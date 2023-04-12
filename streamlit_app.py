@@ -8,7 +8,7 @@ import io
 from time import sleep
 
 # Initialize Firebase configuration
-firebaseConfig = {
+firebaseConfig = st.screct{
     'apiKey': "AIzaSyAXg5zjnmuZixkpkTLEjODenzth_pWOHH8",
     'authDomain': "textin-s0907.firebaseapp.com",
     'projectId': "textin-s0907",
@@ -79,7 +79,7 @@ def main_page():
     transcript_url = "https://api.assemblyai.com/v2/transcript"
 
     # AssemblyAI API key
-    API_KEY = "a68e96a106c14f5ca9e697c1f4d90d11"
+    API_KEY = st.secret("a68e96a106c14f5ca9e697c1f4d90d11")
 
     # Streamlit app
     st.title("Audio Transcription with Textin")
